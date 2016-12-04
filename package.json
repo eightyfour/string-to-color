@@ -1,0 +1,23 @@
+{
+  "name": "string-to-color",
+  "version": "1.0.0",
+  "description": "Generates a color code from a string - supports rgba and hex format",
+  "main": "stringToColor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eightyfour/stringToColor.git"
+  },
+  "keywords": [
+    "css",
+    "color"
+  ],
+  "author": "eightyfour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eightyfour/stringToColor/issues"
+  },
+  "homepage": "https://github.com/eightyfour/stringToColor#readme"
+}
