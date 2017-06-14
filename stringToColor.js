@@ -26,7 +26,7 @@ function convertHexToRGBA(hex, opacity) {
         r = parseInt(hexNoHash.substring(0, 2), 16),
         g = parseInt(hexNoHash.substring(2, 4), 16),
         b = parseInt(hexNoHash.substring(4, 6), 16),
-        result = 'rgba(' + r + ',' + g + ',' + b + ',' + opacity || 1 + ')';
+        result = 'rgba(' + r + ',' + g + ',' + b + ',' + (opacity || 1) + ')';
 
     return result;
 }
